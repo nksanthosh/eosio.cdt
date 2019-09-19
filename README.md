@@ -49,8 +49,8 @@ $ sudo yum remove eosio.cdt
 ```sh
 $ git clone --recursive https://github.com/eosio/eosio.cdt
 $ cd eosio.cdt
-$ ./build.sh
-$ sudo ./install.sh
+$ mkdir build && cd build
+$ cmake .. && make
 ```
 
 ### Installed Tools
